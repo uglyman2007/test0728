@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<colors>
+  <color>
+    <name>黑色</name>
+    <value>1</value>
+  </color>
+  <color>
+    <name>淺綠色</name>
+    <value>2</value>
+  </color>
+  <color>
+    <name>深綠色</name>
+    <value>3</value>
+  </color>
+  <color>
+    <name>咖啡色</name>
+    <value>4</value>
+  </color>
+  <color>
+    <name>橘色</name>
+    <value>5</value>
+  </color>
+  <color>
+    <name>粉紅色</name>
+    <value>6</value>
+  </color>
+  <color>
+    <name>紅色</name>
+    <value>7</value>
+  </color>
+  <color>
+    <name>紫色</name>
+    <value>8</value>
+  </color>
+  <color>
+    <name>淺藍色</name>
+    <value>9</value>
+  </color>
+  <color>
+    <name>藍色</name>
+    <value>10</value>
+  </color>
+  <color>
+    <name>灰色</name>
+    <value>11</value>
+  </color>
+</colors>

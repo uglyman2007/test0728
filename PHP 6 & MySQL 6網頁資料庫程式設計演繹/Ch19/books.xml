@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE books SYSTEM "books.dtd">
+<books>
+  <book index="W8045">
+    <title>Dreamweaver CS3 + PHP 網頁資料庫範例教學</title>
+    <author>德瑞工作室</author>
+    <date>2008年2月</date>
+	<price>600</price>
+  </book>
+  <book index="W8155">
+    <title>網頁程式設計師</title>
+    <author>德瑞工作室</author>
+    <date>2008年10月</date>
+	<price>600</price>
+  </book>
+  <!-- 在這裡加入其他的記錄 -->
+  <?php print ('Fj,Y') ?>
+</books>

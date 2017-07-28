@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!ELEMENT books (book)+>
+<!ELEMENT book (title, author, date, price)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ATTLIST book 
+  index CDATA #REQUIRED
+>

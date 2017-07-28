@@ -1,0 +1,50 @@
+﻿@charset "utf-8";
+.style1 {
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #669900;
+	border-collapse: collapse;
+}
+.style2 {
+	border: 1px solid #669900;
+}
+.style3 {
+	padding: 4px;
+}
+.style4 {
+	width: 100%;
+	font-size: 24px;
+	color: #336600;
+}
+.style5 {
+	text-align: center;
+}
+.style6 {
+	margin-left: auto;
+	margin-right: auto;
+    font-size: 12px;
+	border-collapse: collapse;
+}
+.style7 {
+	padding: 4px 8px;
+}	
+.style8 {
+	background-color: #DFECF0;
+	color: #000000;
+	padding: 3px 12px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #CEE7FF #3399FF #3399FF #CEE7FF;
+}
+.style9 {
+	color: #FF00000;
+}
+.style10 {
+	border-top: 1px solid #669900;
+}
+.style11 {
+	width: 100%;
+}
+.style12 {
+	padding: 8px; text-align: center;
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<books>
+  <book index="W8045">
+    <title>Dreamweaver CS3 + ASP.NET 網頁資料庫範例教學 - AJAX+CSS</title>
+    <author>德瑞工作室</author>
+    <date>2008年2月</date>
+	<price>600</price>
+  </book>
+  <book index="W8155">
+    <title>網頁程式設計師</title>
+    <author>德瑞工作室</author>
+    <date>2008年10月</date>
+	<price>600</price>
+  </book>
+</books>

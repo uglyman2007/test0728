@@ -1,0 +1,116 @@
+﻿@charset "utf-8";
+div#content
+{
+	position: absolute;
+	left: 30px;
+	top: 30px;
+}
+
+div#control
+{
+	position: relative;
+	left: 10px;
+	top: 10px;
+	color: red;
+}
+
+div#descriptionText
+{
+	position: absolute;
+	left: 240px;
+	top: 12px;
+	width: 100px;
+}
+
+div#description
+{
+	position: absolute;
+	left: 340px;
+	top: 12px;
+	color: olive;
+	width: 400px;
+	height: 60px;
+	border: 1px solid red;
+	padding: 4px;
+}
+
+div#valuesText
+{
+	position: absolute;
+	left: 240px;
+	top: 102px;
+	width: 100px;
+}
+
+div#values
+{
+	position: absolute;
+	left: 340px;
+	top: 102px;
+	color: olive;
+	width: 400px;
+	height: 120px;
+	border: 1px solid red;
+	padding: 4px;
+}
+
+div#initialText
+{
+	position: absolute;
+	left: 240px;
+	top: 242px;
+	width: 100px;
+}
+
+div#initial
+{
+	position: absolute;
+	left: 340px;
+	top: 242px;
+	color: olive;
+	width: 400px;
+	height: 40px;
+	border: 1px solid red;
+	padding: 4px;
+}
+
+div#applyText
+{
+	position: absolute;
+	left: 240px;
+	top: 302px;
+	width: 100px;
+}
+
+div#apply
+{
+	position: absolute;
+	left: 340px;
+	top: 302px;
+	color: olive;
+	width: 400px;
+	height: 40px;
+	border: 1px solid red;
+	padding: 4px;
+}
+
+div#popup
+{
+	border: 1px solid olive;
+	background-color: white;
+	color: olive;
+	width: 206px;
+	overflow: auto;
+}
+
+.showpopup
+{
+    padding: 4px;
+	cursor: pointer;
+}
+
+div#popup :hover
+{
+	background-color: yellow;
+	coloe: red;
+}

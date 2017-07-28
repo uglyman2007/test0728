@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<books>
+  <book photo="W8155.jpg">
+    <title>網頁程式設計師 - HTML,JavaScript,CSS,XHTML,AjAX</title>
+	<author>德瑞工作室</author>
+	<price>620</price>
+	<description>
+	  <![CDATA[
+* HTML的基本知識
+* 最新的網頁語言XHTML
+* 網頁設計的基礎與應用
+* 如何套用CSS樣式來改變網頁的外觀
+* 如何使用JavaScript來產生動態的效果
+* XML對網頁的應用有何影響
+* 如何建立Ajax的應用程式
+* 如何建置網站
+* 設計所有瀏覽器都適用的網頁
+* 使用PHP與ASP.NET建立伺服端程式
+* HTML/XHTML與CSS的快速參考
+* 從基礎到實用的所有網頁設計的技術
+	  ]]>
+    </description>
+  </book>
+  <book photo="W8045.jpg">
+    <title>Dreamweaver CS3 &amp; PHP網頁資料庫範例教學 - AJAX + CSS </title>
+	<author>德瑞工作室</author>
+	<price>600</price>
+	<description>
+	  <![CDATA[
+本書介紹如何使用PHP來搭配Dreamweaver CS3，
+再加上MySQL資料庫，建構任何大型網頁都能夠輕
+輕鬆鬆地完成。特別是應用Dreamweaver CS3的
+Spr架構，來建立具有AJAX功能的應用程式。另外
+在CSS樣式上，也增加了許多的篇幅。本書的寫作是
+以圖形加上說明文字的方式來講解，完全沒有長篇
+大論的枯燥文字。在每一章都提供大量的範例程式，
+這些範例程式放在書附光碟中，讀者可以直接複製
+到您的電腦中來使用。
+
+從本書您可以學到：
+
+* PHP的基本語法
+* Dreamweaver CS3的介面用法
+* 如何使用PHP來設計網頁
+* 如何使用Dreamweaver CS3來編輯網頁
+* 如何使用MySQL資料庫
+* 如何在Dreamweaver CS3中使用PHP與MySQL來
+  建立網頁資料庫
+* 如何應用Dreamweaver CS3的Spry架構，來建立
+  具有AJAX功能的網頁
+* 如何設計CSS樣式
+* 如何建構自己的網站
+* 提供『會員管理系統』,『線上郵寄系統』,
+  『檔案的上傳與下載』，『網路購物』，『聊天室』，
+  以及『部落格』的實例應用
+	  ]]>
+    </description>
+  </book>  
+  <book photo="W8035.jpg">
+    <title>Dreamweaver CS3 &amp; ASP.NET網頁資料庫範例教學 - AJAX + CSS </title>
+	<author>德瑞工作室</author>
+	<price>600</price>
+	<description>
+	  <![CDATA[
+從本書您可以學到：
+
+* Visual Basic的基本語法
+* ASP.NET的基本語法
+* Dreamweaver CS3的介面用法
+* 如何使用ASP.NET來設計網頁
+* 如何使用Dreamweaver CS3來編輯網頁
+* 如何存取Access與SQL Server資料庫
+* 如何在Dreamweaver CS3中使用ASP.NET與
+  Access來建立網頁資料庫
+* 如何應用Dreamweaver CS3的Spry架構，來建立具
+  有AJAX功能的網頁
+* 如何設計CSS樣式
+* 如何建構自己的網站
+* 提供『會員管理系統』,『線上郵寄系統』,
+  『檔案的上傳與下載』，『網路購物』，『聊天室』，
+  以及『部落格』的實例應用
+	  ]]>
+    </description>
+  </book>
+  <book photo="W7035.jpg">
+    <title>PHP網頁大作戰 - 如何防止駭客入侵您的網頁</title>
+	<author>德瑞工作室</author>
+	<price>370</price>
+	<description>
+	  <![CDATA[
+本書詳盡解說駭客攻擊PHP應用程式的各種技術，當然更
+有破解與防禦方法的說明。要想建立安全的Web應用程式
+與網頁，不是光精通PHP程式寫作就能做到的。了解駭客
+實際的攻擊手法，才能知道如何來防禦。本書精選各種駭
+客的攻擊技術，總共有18種之多，大致能夠概括目前PHP
+網頁所遇到的攻擊手法。要想建立能夠讓客戶與上司信任
+的網頁，您一定要閱讀本書。
+      ]]>
+    </description>
+  </book>
+  <book photo="W6145.jpg">
+    <title>Dreamweaver &amp; PHP 網頁資料庫實務應用</title>
+	<author>德瑞工作室</author>
+	<price>520</price>
+	<description>
+	  <![CDATA[
+* PHP的基本語法
+* Dreamweaver的介面用法
+* 如何使用PHP來設計網頁
+* 如何使用Dreamweaver來編輯網頁
+* 如何使用MySQL資料庫頁
+* 如何在Dreamweaver中使用PHP與MySQL來建立網頁
+  資料庫頁
+* 如何建構自己的網
+* 提供『會員管理系統』,『留言版』,『討論區』,『聊天室』,『
+  檔案的上傳與下載』，以及『網路購物』的實例應用
+	  ]]>
+    </description>
+  </book>
+  <book photo="W7015.jpg">
+    <title>Dreamweaver &amp; ASP.NET 網頁資料庫實務應用</title>
+	<author>德瑞工作室</author>
+	<price>520</price>
+	<description>
+	  <![CDATA[
+* Visual Basic的基本語法
+* ASP.NET的基本語法
+* Dreamweaver的介面用法
+* 如何使用ASP.NET來設計網頁
+* 如何使用Dreamweaver來編輯網頁
+* 如何使用Access與SQL Server資料庫
+* 如何在Dreamweaver中使用ASP.NET與Access和
+  SQL Server來建立網頁資料庫
+* 如何建構自己的網站
+* 提供『會員管理系統』,『留言版』,『討論區』,『聊天室』,『
+  檔案的上傳與下載』，以及『網路購物』的實例應用
+	  ]]>
+    </description>
+  </book>
+</books>

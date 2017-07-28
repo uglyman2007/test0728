@@ -1,0 +1,76 @@
+﻿@charset "utf-8";
+.style1 {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 12px;
+	border: 4px double #A8A8A8;
+	background-color: #FFFFFF;
+	font-size: 12px;
+	border-collapse: collapse;
+}
+.style2 {
+	height: 26px;
+	width: 120px;
+	background-color: #ACE4FF;
+	border: 2px solid #FFFFFF;
+}
+.style3 {
+	width: 240px;
+	background-color: #ACE4FF;
+	border: 2px solid #FFFFFF;
+}
+.style4 {
+	width: 160px;
+	background-color: #ACE4FF;
+	border: 2px solid #FFFFFF;
+}
+.style5 {
+	width: 40px;
+	background-color: #ACE4FF;
+	border: 2px solid #FFFFFF;
+}
+.style6 {
+	height: 26px;
+	padding-left: 6px;
+	padding-top: 4px;
+	border: 2px solid #FFFFFF;
+	background-color: #E1E1C4;
+}
+.style7 {
+	width: 40%;
+	padding-left: 10px;
+	padding-top: 4px;
+}
+.style8 {
+	color: #FF0000;
+}
+.style9 {
+	width: 10%;
+	color: #FF0000;
+}
+.style10 {
+	margin: 0px;
+	padding: 0px;
+	border-collapse: collapse;
+}
+.style11 {
+	width: 80px;
+}
+.style12 {
+	width: 340px;
+	padding-left: 6px;
+	padding-top: 12px;
+}
+.style13 {
+	width: 15%;
+}
+.style14 {
+	width: 40%;
+}
+.style15 {
+	width: 100%;
+}
+.style16 {
+	padding-left: 80px;
+	padding-top: 12px;
+}

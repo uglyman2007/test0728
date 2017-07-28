@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<members>
+  <member name="李小華" sex="男">
+	<email>andy@example.com</email>
+	<地址>台北市龍安路100號</地址>
+  </member>
+  <member name="徐小珍" sex="女">
+	<email>cindy@example.com</email>
+	<地址>台北市興隆路333號</地址>
+  </member>
+  <member name="吳大慶" sex="男">
+	<email>john@example.com</email>
+	<地址>台北市安鋒路235號</地址>
+  </member>
+</members>

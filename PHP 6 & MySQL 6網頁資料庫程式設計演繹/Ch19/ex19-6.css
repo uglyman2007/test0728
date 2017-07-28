@@ -1,0 +1,22 @@
+﻿@charset "utf-8";
+table
+{
+	border: 1px solid green;
+	border-collapse: collapse;
+	font-size: 14px;
+}
+
+th
+{
+	border: 1px solid green;
+	border-collapse: collapse;
+	padding: 2px 8px 2px 8px;
+	background-color: #EEE;
+}
+
+td
+{
+	border: 1px solid green;
+	border-collapse: collapse;
+	padding: 2px 8px 2px 8px;
+}

@@ -1,0 +1,7 @@
+@charset "utf-8";
+h1 {color: red;}
+p {
+  font-size: 18px; 
+  font-family: '新細明體'; 
+  color: #669999;
+}

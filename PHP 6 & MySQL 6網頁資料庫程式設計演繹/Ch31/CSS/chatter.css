@@ -1,0 +1,47 @@
+﻿@charset "utf-8";
+.chatter_style1 {
+	border-collapse: collapse;
+	width: 100%;
+	background-color: #E6ECF7;
+	font-size: 14px;
+}
+.chatter_style2 {
+	padding: 6px;
+}
+.chatter_style3 {
+	color: #009999;
+}
+.chatter_style4 {
+	color: #996600;
+	padding-left: 4px;
+}
+.chatter_style5 {
+	color: #CC0000;
+}
+.chatter_style6 {
+	padding-top: 12px;
+}
+.chatter_style7 {
+	height: 500px;
+	overflow-y: auto;
+}
+.chatter_style8 {
+	border-collapse: collapse;
+	width: 100%;
+}
+.chatter_style9 {
+	border-top: 1px solid #666600;
+	padding: 4px 2px;
+	background-color: #FFCC00; 
+}
+.chatter_style10 {
+	color: #003300;
+	padding-right: 6px;
+}
+.chatter_style11 {
+	color: #336600;
+}
+.chatter_style12 {
+	color: #CC0099;
+	padding-right: 6px;
+}

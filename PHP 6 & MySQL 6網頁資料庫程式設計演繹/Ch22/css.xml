@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<css>
+  <style>
+	<name>azimuth</name>
+	<description>設定聲音發射的水平角度</description>
+	<values>&lt;angle&gt; | [[ left-side | far-left | left | center-left | center | center-right | right |far-right | right-side ] || behind ] | leftwards | rightwards | inherit</values>
+	<initial>center</initial>
+	<apply>所有元素</apply>
+  </style>
+  <style>
+    <name>background</name>
+	<description>設定背景影像的所有屬性</description>
+	<values>[&lt;'background-color'&gt;||&lt;'background-image'&gt;|| &lt;'background-repeat'&gt;||&lt;'background-attachment'&gt;||    &lt;'background-position'&gt;]|inherit</values>
+	<initial>個別屬性的預設值</initial>
+	<apply>所有元素</apply>
+  </style>
+  <style>
+	<name>background-attachment</name>
+	<description>固定元素的背景影像的</description>
+	<values>scroll | fixed | inherit</values>
+	<initial>scroll</initial>
+	<apply>所有元素</apply>
+  </style>
+  <style>
+	<name>background-color</name>
+	<description>設定元素的背景顏色</description>
+	<values>&lt;color&gt; | transparent | inherit</values>
+	<initial>transparent</initial>
+	<apply>所有元素</apply>
+  </style>
+  <style>
+	<name>background-image</name>
+	<description>設定元素的背景影像</description>
+	<values>&lt;uri&gt; | none | inherit</values>
+	<initial>none</initial>
+	<apply>所有元素</apply>
+  </style>
+  <style>
+	<name>background-position</name>
+	<description>設定元素的背景影像的水平與垂直位置</description>
+	<values>[ [&lt;percentage&gt; | &lt;length&gt; | left | center | right ] [&lt;percentage&gt;|
+&lt;length&gt; | top | center | bottom ]? } | [ [left | center | right ] || [top |center | bottom ] ] | inherit</values>
+	<initial>0% 0%  (與left top相同</initial>
+	<apply>所有元素</apply>
+  </style>
+	<style>
+	  <name>background-repeat</name>
+	  <description>設定元素的背景影像的重複方式</description>
+		<values>repeat | repeat-x | repeat-y | no-repeat | inherit</values>
+		<initial>repeat</initial>
+		<apply>所有元素</apply>
+  </style>	
+	<style>
+	  <name>border</name>
+	  <description>同時設定元素的上，右，下，左邊框的格式，厚度，與顏色</description>
+		<values>[&lt;border-style&gt; || &lt;border-width&gt; || &lt;border-color&gt; ] | inherit</values>
+		<initial>個別屬性的預設值</initial>
+		<apply>所有元素</apply>
+  </style>
+	<style>
+	  <name>border-bottom</name>
+	  <description>設定元素的下邊框的格式，厚度，與顏色</description>
+		<values>[&lt;border-style&gt; || &lt;border-width&gt; || &lt;border-color&gt; ] | inherit</values>
+		<initial>沒有定義</initial>
+		<apply>所有元素</apply>
+  </style>
+	<style>
+	  <name>border-bottom-color</name>
+	  <description>設定元素的下邊框的顏色</description>
+		<values>&lt;color&gt; | transparent | inherit</values>
+		<initial>元素的color屬性值</initial>
+		<apply>所有元素</apply>
+  </style>
+	<style>
+	  <name>border-bottom-style</name>
+	  <description>設定元素的下邊框的格式</description>
+		<values>none | dotted | dashed | solid | double | groove | ridge| inset | outset</values>
+		<initial>none</initial>
+		<apply>所有元素</apply>
+  </style>
+	<style>
+	  <name>border-bottom-width</name>
+	  <description>設定元素的下邊框的厚度</description>
+		<values>thin | medium | thick | &lt;length&gt; | inherit</values>
+		<initial>medium</initial>
+		<apply>所有元素</apply>
+  </style>
+	<style>
+	  <name>border-collapse</name>
+	  <description>設定儲存格的邊框樣式</description>
+		<values>collapse | separate | inherit</values>
+		<initial>separate</initial>
+		<apply>所有元素</apply>
+  </style>
+	<style>
+	  <name>border-color</name>
+	  <description>同時設定元素的上，右，下，左邊框的顏色</description>
+		<values>[&lt;color&gt; | transparent]{1,4} | inherit</values>
+		<initial>沒有定義</initial>
+		<apply>所有元素</apply>
+  </style>
+	<style>
+	  <name>border-left</name>
+	  <description>同時設定元素的左邊框的格式，厚度，與顏色</description>
+		<values>[&lt;border-style&gt; || &lt;border-width&gt; || &lt;border-color&gt; ] | inherit</values>
+		<initial>沒有定義</initial>
+		<apply>所有元素</apply>
+  </style>
+	<style>
+	  <name>border-left-color</name>
+	  <description>設定元素的左邊框的顏色</description>
+		<values>&lt;color&gt; | transparent | inherit</values>
+		<initial>元素的color屬性值</initial>
+		<apply>所有元素</apply>
+  </style>
+	<style>
+	  <name>border-left-style</name>
+	  <description>設定元素的左邊框的格式</description>
+		<values>none | dotted | dashed | solid | double | groove | ridge| inset | outset</values>
+		<initial>none</initial>
+		<apply>所有元素</apply>
+  </style>
+	<style>
+	  <name>border-left-width</name>
+	  <description>設定元素的左邊框的厚度</description>
+		<values>thin | medium | thick | &lt;length&gt; | inherit</values>
+		<initial>medium</initial>
+		<apply>所有元素</apply>
+  </style>
+	<style>
+	  <name>border-right</name>
+	  <description>同時設定元素的右邊框的格式，厚度，與顏色</description>
+		<values>[&lt;border-style&gt; || &lt;border-width&gt; || &lt;border-color&gt; ] | inherit</values>
+		<initial>沒有定義</initial>
+		<apply>所有元素</apply>
+  </style>
+	<style>
+	  <name>border-right-color</name>
+	  <description>設定元素的右邊框的顏色</description>
+		<values>&lt;color&gt; | transparent | inherit</values>
+		<initial>元素的color屬性值</initial>
+		<apply>所有元素</apply>
+  </style>
+	<style>
+	  <name>border-right-style</name>
+	  <description>設定元素的右邊框的格式</description>
+		<values>none | dotted | dashed | solid | double | groove | ridge| inset | outset</values>
+		<initial>none</initial>
+		<apply>所有元素</apply>
+  </style>
+	<style>
+	  <name>border-right-width</name>
+	  <description>設定元素的右邊框的厚度</description>
+		<values>thin | medium | thick | &lt;length&gt; | inherit</values>
+		<initial>medium</initial>
+		<apply>所有元素</apply>
+  </style>
+	<style>
+	  <name>border-spacing</name>
+	  <description>設定儲存格之間的間隔距離</description>
+		<values>&lt;length&gt; &lt;length&gt;? | inherit</values>
+		<initial>0</initial>
+		<apply>表格元素與行內表格元素</apply>
+  </style>
+	<style>
+	  <name>border-style</name>
+	  <description>同時設定元素的上，右，下，左邊框的格式</description>
+		<values>[none | dotted | dashed | solid | double | groove | ridge| inset | outset]{1,4} | inherit</values>
+		<initial>沒有定義</initial>
+		<apply>所有元素</apply>
+  </style>
+	<style>
+	  <name>border-top</name>
+	  <description>同時設定元素的上邊框的格式，厚度，與顏色</description>
+		<values>[&lt;border-style&gt; || &lt;border-width&gt; || &lt;border-color&gt; ] | inherit</values>
+		<initial>沒有定義</initial>
+		<apply>所有元素</apply>
+  </style>
+	<style>
+	  <name>border-top-color</name>
+	  <description>設定元素的上邊框的顏色</description>
+		<values>&lt;color&gt; | transparent | inherit</values>
+		<initial>元素的color屬性值</initial>
+		<apply>所有元素</apply>
+  </style>
+	<style>
+	  <name>border-top-style</name>
+	  <description>設定元素的上邊框的格式</description>
+		<values>none | dotted | dashed | solid | double | groove | ridge| inset | outset</values>
+		<initial>none</initial>
+		<apply>所有元素</apply>
+  </style>
+	<style>
+	  <name>border-top-width</name>
+	  <description>設定元素的上邊框的厚度</description>
+		<values>thin | medium | thick | &lt;length&gt; | inherit</values>
+		<initial>medium</initial>
+		<apply>所有元素</apply>
+  </style>
+	<style>
+	  <name>border-width</name>
+	  <description>同時設定元素的上，右，下，左邊框的厚度</description>
+		<values>[thin | medium | thick | &lt;length&gt; ]{1,4} | inherit</values>
+		<initial>沒有定義</initial>
+		<apply>所有元素</apply>
+  </style>
+	<style>
+	  <name>bottom</name>
+	  <description>指定定位元素的底外邊界與其包容區塊的底邊界之間的偏移值</description>
+		<values>&lt;length&gt; | &lt;percentage&gt; | auto | inherit</values>
+		<initial>auto</initial>
+		<apply>使用relative，absolute，或fixed定位的元素</apply>
+  </style>
+	<style>
+	  <name>caption-side</name>
+	  <description>指定表格標題的位置</description>
+		<values>top | right | bottom | left | inherit</values>
+		<initial>top</initial>
+		<apply>表格標題元素(XHTML的caption元素)</apply>
+  </style>
+	<style>
+	  <name>clear</name>
+	  <description>清除浮動元素</description>
+		<values>left | right | both | none | inherit</values>
+		<initial>none</initial>
+		<apply>區塊元素</apply>
+  </style>
+	<style>
+	  <name>clip</name>
+	  <description>設定元素的裁切範圍</description>
+		<values>rect(top, right, bottom, left) | auto | inherit</values>
+		<initial>auto</initial>
+		<apply>絕動定位的元素</apply>
+  </style>
+	<style>
+	  <name>color</name>
+	  <description>設定元素的文字顏色</description>
+		<values>&lt;color&gt; | inherit</values>
+		<initial>依照瀏覽裝置的設定</initial>
+		<apply>所有元素</apply>
+  </style>
+	<style>
+	  <name>content</name>
+	  <description>在元素的前面或後面插入新的內容</description>
+		<values>normal | [ &lt;string&gt; | &lt;uri&gt; | &lt;counter&gt; | attr(&lt;identifier&gt;) | open-quote | close-quote | no-open-quote | no-close-quote ]+ |inherit</values>
+		<initial>normal</initial>
+		<apply>:before與 :after擬態元素</apply>
+  </style>
+	<style>
+	  <name>counter-increment</name>
+	  <description>設定清單編號的增加量</description>
+		<values>[&lt;identifier&gt; &lt;integer&gt;? ]+ | none | inherit</values>
+		<initial>依照瀏覽器的設定</initial>
+		<apply>所有元素</apply>
+  </style>
+	<style>
+	  <name>counter-reset</name>
+	  <description>設定清單編號的起始號碼</description>
+		<values>[&lt;identifier&gt; &lt;integer&gt;? ]+ | none | inherit</values>
+		<initial>依照瀏覽器的設定</initial>
+		<apply>所有元素</apply>
+  </style>
+	<style>
+	  <name>cue</name>
+	  <description>用來指定cue-before 與cue-after的簡短屬性</description>
+		<values>[ &lt;'cue-before'&gt; || &lt;'cue-after'&gt; ] | inherit</values>
+		<initial>視個別屬性的預設值而定</initial>
+		<apply>所有元素</apply>
+  </style>
+	<style>
+	  <name>cue-after</name>
+	  <description>指定在元素內容後面要播放的聲音小圖示</description>
+		<values>&lt;uri&gt; | none | inherit</values>
+		<initial>none</initial>
+		<apply>所有元素</apply>
+  </style>
+	<style>
+	  <name>cue-before</name>
+	  <description>指定在元素內容前面要播放的聲音小圖示</description>
+		<values>&lt;uri&gt; | none | inherit</values>
+		<initial>none</initial>
+		<apply>所有元素</apply>
+  </style>
+	<style>
+	  <name>cursor</name>
+	  <description>設定滑鼠指標移到元素上方時的形狀</description>
+		<values>[[&lt;uri&gt;,]* [auto | default | pointer | crosshair | move |
+e-resize | ne-resize | nw-resize | n-resize | se-resize | sw-resize | s-resize | w-resize | text | wait | help | progress]] | inherit</values>
+		<initial>auto</initial>
+		<apply>所有元素</apply>
+  </style>
+	<style>
+	  <name>direction</name>
+	  <description>設定文字的顯示方向</description>
+		<values>ltr | rtl | inherit</values>
+		<initial>ltr</initial>
+		<apply>所有元素</apply>
+  </style>
+	<style>
+	  <name>display</name>
+	  <description>指定元素方框在網頁編排時的型態</description>
+		<values>inline | block | list-item | run-in | inline-block | table | inline-table | table-row-group | table-header-group | table-footer-group | table-row | table-column-group | table-column | table-cell | table-caption | none | inherit</values>
+		<initial>inline</initial>
+		<apply>所有元素</apply>
+	<style>
+	  <name>elevation</name>
+	  <description>指定聲音發射的垂直角度</description>
+		<values>&lt;angle&gt; | below | level | above | higher | lower | inherit</values>
+		<initial>level</initial>
+		<apply>所有元素</apply>
+  </style>
+	<style>
+	  <name>empty-cells</name>
+	  <description>顯示或隱藏空的儲存格</description>
+		<values>show | hide | inherit</values>
+		<initial>show</initial>
+		<apply>所有元素</apply>
+  </style>
+  </style>
+</css>
